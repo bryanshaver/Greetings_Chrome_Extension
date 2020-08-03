@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Simple Greeting Dashboard</title>
+        <link rel="stylesheet" href="style.css" media="screen">
+    </head>
+
+    <body>
+        <div id="peace">
+
+            <button class="peace-button" id="peace-button-on">I need Peace and Tranquility</button>
+
+            <button class="peace-button" id="peace-button-off">I feel peaceful enough</button>
+
+        </div>
+        <button class="content" id="settings-button">Settings</button>
+        
+        <video id="player" width="100%" height="70% loop preload="auto">
+            <source src="A Hat in Time OST [Seal the Deal] - Peace and Tranquility.mp4">
+         </video>
+        <div class="settings content" id="settings">
+
+            <form class="name-form" id="name-form" action="#">
+                <input class="name-input" type="text" id="name-input" placeholder="Type your name here...">
+                <button type="submit" class="name-button">Add</button>
+            </form>
+
+        </div>
+
+        <div class="greeting-container content">
+            <h2 class="greeting content" id="greeting"></h2>
+
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+
+</html>
